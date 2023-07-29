@@ -253,7 +253,7 @@ main {
 .sec2 {
 
     width: 100%;
-    height: 700px;
+    height: 800px;
     position: relative;
     top: 0px;
     left: 0px;
@@ -263,7 +263,9 @@ main {
 
     width: 760px;
     height: 700px;
-    margin-left: -100px;
+    position: absolute;
+    z-index: -2;
+    
 }
 .sec2_right {
 
@@ -276,13 +278,15 @@ main {
     z-index: -1 !important;
     font-family: 'Poppins', sans-serif;
     position: absolute;
-    top: 120px;
+    top: 210px;
 }
 .sec2_right .title {
     font-size: 60px;
     font-weight: 900;
     color: #fff;
     z-index: 7;
+    position: relative;
+    top: -10px;
     
 }
 .sec2_right .subtitle{
