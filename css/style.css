@@ -257,7 +257,7 @@ main {
     position: relative;
     top: 0px;
     left: 0px;
-    padding-top: 100px;
+    padding-top: 100px !important;
 }    
 .sec2_left img {
 
